@@ -58,7 +58,7 @@ pipelines:
           auto:
             language: go
             versions:
-            - 1.13.7
+              - 1.13.12
       inputSteps:
         - name: trigger_all
       inputResources:
@@ -93,7 +93,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputSteps:
         - name: trigger_all
       inputResources:
@@ -128,7 +128,7 @@ pipelines:
           auto:
             language: go
             versions:
-            - 1.13.7
+              - 1.13.12
       inputResources:
         - name: replicator_bitbucket
           trigger: true
@@ -167,7 +167,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: router_bitbucket
           trigger: true
@@ -225,7 +225,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: router_bitbucket
           trigger: false
@@ -259,7 +259,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: router_bitbucket
           trigger: false
@@ -298,7 +298,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: router_bitbucket
           trigger: false
@@ -388,7 +388,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: metadata_bitbucket
           trigger: true
@@ -495,7 +495,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: p2p_bitbucket
           trigger: true
@@ -535,7 +535,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: p2p_bitbucket
           trigger: true
@@ -576,7 +576,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: p2p_bitbucket
           trigger: true
@@ -618,7 +618,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: p2p_bitbucket
           trigger: false
@@ -756,7 +756,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputSteps:
         - name: trigger_all
       inputResources:
@@ -792,7 +792,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: access_go_client_bitbucket
         - name: go_commons_go_module_build_info
@@ -829,7 +829,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputSteps:
         - name: trigger_all
       inputResources:
@@ -865,7 +865,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputSteps:
         - name: trigger_all
       inputResources:
@@ -901,7 +901,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: event_service_bitbucket
         - name: access_go_client_go_module_build_info
@@ -958,7 +958,7 @@ pipelines:
           auto:
             language: go
             versions:
-              - 1.13.7
+              - 1.13.12
       inputResources:
         - name: event_service_bitbucket
           trigger: true
@@ -1608,7 +1608,7 @@ pipelines:
           auto:
             language: java
             versions:
-            - 11
+              - 11
     execution:
       onStart:
         - sleep 10
@@ -1785,7 +1785,7 @@ pipelines:
           auto:
             language: java
             versions:
-            - 11
+              - 11
     execution:
       onStart:
         - sleep 10
@@ -1818,7 +1818,7 @@ pipelines:
           auto:
             language: java
             versions:
-            - 11
+              - 11
     execution:
       onStart:
         - sleep 10
@@ -1854,7 +1854,7 @@ pipelines:
           auto:
             language: java
             versions:
-            - 11
+              - 11
     execution:
       onStart:
         - sleep 10
@@ -1943,7 +1943,7 @@ pipelines:
           auto:
             language: node
             versions:
-              - 12.14.0
+              - 12.18.2
       inputSteps:
         - name: trigger_all
       inputResources:
@@ -1979,7 +1979,7 @@ pipelines:
           auto:
             language: node
             versions:
-              - 12.14.0
+              - 12.18.2
       inputSteps:
         - name: trigger_all
       inputResources:
@@ -2015,7 +2015,7 @@ pipelines:
           auto:
             language: node
             versions:
-              - 12.14.0
+              - 12.18.2
       inputSteps:
         - name: trigger_all
       inputResources:
@@ -2050,7 +2050,7 @@ pipelines:
           auto:
             language: node
             versions:
-              - 12.14.0
+              - 12.18.2
       inputSteps:
         - name: trigger_all
       inputResources:
@@ -2084,7 +2084,7 @@ pipelines:
         image:
           custom:
             name: docker.bintray.io/jfrog/pipelines-u16node
-            tag: "12.14.0"
+            tag: "12.18.2"
             options: "--net=host"
       inputResources:
         - name: access_nodejs_client_bitbucket
@@ -2121,7 +2121,7 @@ pipelines:
           auto:
             language: node
             versions:
-              - 12.14.0
+              - 12.18.2
       inputSteps:
         - name: trigger_all
       inputResources:
