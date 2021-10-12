@@ -2,14 +2,14 @@ resources:
   - name: artifactory_monorepo_bitbucket
     type: GitRepo
     configuration:
-      path: neha-mishraa/pipelines
+      path: Varsha-Arun/pipelines
       gitProvider: github_neha
       branches:
         include: ^{{gitBranch}}$
   - name: replicator_bitbucket
     type: GitRepo
     configuration:
-      path: neha-mishraa/pipelines
+      path: Varsha-Arun/pipelines
       gitProvider: github_neha
       branches:
         include: ^{{gitBranch}}$
@@ -18,7 +18,7 @@ resources:
   - name: p2p_bitbucket
     type: GitRepo
     configuration:
-      path: neha-mishraa/pipelines
+      path: Varsha-Arun/pipelines
       gitProvider: github_neha
       branches:
         include: ^{{gitBranch}}$
@@ -27,7 +27,7 @@ resources:
   - name: parent_pom_bitbucket
     type: GitRepo
     configuration:
-      path: neha-mishraa/pipelines
+      path: Varsha-Arun/pipelines
       gitProvider: github_neha
       branches:
         include: ^{{gitBranch}}$
@@ -36,7 +36,7 @@ resources:
   - name: access_bitbucket
     type: GitRepo
     configuration:
-      path: neha-mishraa/pipelines
+      path: Varsha-Arun/pipelines
       gitProvider: github_neha
       branches:
         include: ^{{gitBranch}}$
