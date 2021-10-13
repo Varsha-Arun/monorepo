@@ -217,7 +217,7 @@ resources:
     type: GitRepo
     configuration:
       path: Varsha-Arun/pipelines
-      gitProvider: github_neha
+      gitProvider: varsha_github
       branches:
         include: ^{{gitBranch}}$
       files:
@@ -226,7 +226,7 @@ resources:
     type: GitRepo
     configuration:
       path: Varsha-Arun/pipelines
-      gitProvider: github_neha
+      gitProvider: varsha_github
       branches:
         include: ^{{gitBranch}}$
       files:
